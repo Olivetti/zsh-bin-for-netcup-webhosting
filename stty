@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#set -vux
+#
+# dd & stty addon script for installing zsh-bin in netcup.net's webhosting
+# https://github.com/Olivetti/zsh-bin-for-netcup-webhosting
+# https://github.com/romkatv/zsh-bin
+#
+# © Olivetti 2021-2022
+#
+
+busybox stty "${@}"
