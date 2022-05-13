@@ -11,6 +11,6 @@ dd & stty addon script for installing [zsh-bin](https://github.com/romkatv/zsh-b
 2. ```mkdir -pv /.local/bin```
 3. ```cp -pv busybox dd stty /.local/bin```
 4. ```chmod +x /.local/bin/busybox /.local/bin/dd /.local/bin/stty```
-5. ```echo $PATH | grep -q '/.local/bin' || echo 'export PATH="/.local/bin:$PATH"' >> /.profile && source /.profile```
-6. go ahead with installation of zsh-bin:
+5. ```echo $PATH | grep -q '/.local/bin' || { echo 'export PATH="/.local/bin:$PATH"' >> /.profile && source /.profile; }```
+6. go ahead with installation of zsh-bin:  
    ```curl https://raw.githubusercontent.com/romkatv/zsh-bin/master/install | sh -s -- -d /.local```
