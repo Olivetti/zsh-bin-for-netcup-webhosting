@@ -1,5 +1,5 @@
 ## zsh-bin-for-netcup-webhosting
-dd & stty addon script for installing [zsh-bin](https://github.com/romkatv/zsh-bin) in netcup.net's webhosting
+dd & stty addon scripts for installing [zsh-bin](https://github.com/romkatv/zsh-bin) in netcup.net's webhosting
 
 ### Requirements
 - [busybox](https://busybox.net/downloads/binaries)
